@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+#the_big_circle {
+    border: 6px solid black;
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    margin-top: 160px;
+    margin-left: 520px;
+    border-bottom: none;
+    border-top: none;
+    border-left-color: red;
+    border-right-color: blue;
+    cursor: pointer;
+}
+
+span#part1 {
+    font-family: 'Style Script', cursive;
+    font-size: 150px;
+    float: right;
+    margin-right: 115px;
+    margin-top: 75px;
+    color: blue;
+    cursor: pointer;
+}
+
+span#part2 {
+    font-family: 'Style Script', cursive;
+    font-size: 150px;
+    float: right;
+    margin-right: 35px;
+    margin-top: -225px;
+    color: red;
+    cursor: pointer;
+}
+
+#the_big_circle:hover {
+    border-left-color: blue;
+    border-right-color: red;
+}
+
+span#part1:hover {
+    color: red;
+}
+
+span#part2:hover {
+    color: blue;
+}
